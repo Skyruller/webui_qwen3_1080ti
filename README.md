@@ -22,7 +22,7 @@ This setup guide is specifically tested on Windows with **GTX 1080 Ti** and **Qw
 ```bash
 conda create -n qwen118 python=3.12
 conda activate qwen118
-cd C:\2\text-generation-webui-main
+cd C:\text-generation-webui-main
 ```
 
 ## 🔧 Required Packages
