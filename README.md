@@ -13,7 +13,7 @@ This setup guide is specifically tested on Windows with **GTX 1080 Ti** and **Qw
 ## ⚙️ Prerequisites
 
 * Install [Miniconda3 for Python 3.12](https://repo.anaconda.com/miniconda/Miniconda3-py312_24.1.2-0-Windows-x86_64.exe)
-* Clone or download the WebUI ([https://github.com/oobabooga/text-generation-webui](https://github.com/oobabooga/text-generation-webui))
+* Clone or download the WebUI ([https://github.com/nan0bug00/text-generation-webui](https://github.com/nan0bug00/text-generation-webui))
 
 ---
 
