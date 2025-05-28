@@ -1,9 +1,7 @@
-# Qwen3 WebUI Setup for Windows + 1080 Ti (No GGUF)
+# Qwen3 WebUI Setup for Windows + 1080Ti
 
 ## Overview
-This setup guide describes how to run **Qwen3** models (non-GGUF) using **text-generation-webui** on Windows with a **GTX 1080 Ti**.
-
-⚠️ **GGUF models (llama.cpp) do NOT work** in this setup due to missing CUDA support in `llama-cpp-python` for 1080 Ti. Use Hugging Face Transformers instead.
+This setup guide describes how to run **Qwen3** models using **text-generation-webui** on Windows with a **GTX 1080 Ti**.
 
 ---
 
