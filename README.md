@@ -37,8 +37,13 @@ pip install -r requirements.txt  # or install manually from your prepared requir
 If using GGUF:
 
 ```bash
-pip install llama-cpp-python --force-reinstall --upgrade \
-  --extra-index-url https://jllllll.github.io/llama-cpp-python-cu118/AVX2/cu118
+conda activate qwen118_copy
+pip uninstall llama-cpp-python -y
+set CMAKE_ARGS=-DGGML_CUDA=ON
+set FORCE_CMAKE=1
+pip install llama-cpp-python --no-cache-dir
+llama-b6503-bin-win-cuda-12.4-x64.zip (https://github.com/ggml-org/llama.cpp/releases)
+copy dll to \AppData\Local\miniconda3\envs\qwen118_copy\Lib\site-packages\llama_cpp\ (ggml-cuda.dll rename ggml.dll)
 ```
 
 Fix numpy + numba compatibility:
