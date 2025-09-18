@@ -93,7 +93,11 @@ Output:           ~23-26 tokens/s
 
 ## ✅ Notes
 
-* Make sure `llama.dll` is available after installing `pip install llama-cpp-python --no-cache-dir --verbose`
+* Make sure `llama.dll` is available after installing
+   set CMAKE_ARGS=-DGGML_CUDA=ON
+   set FORCE_CMAKE=1
+   pip uninstall llama-cpp-python -y
+   pip install llama-cpp-python --no-cache-dir --verbose
 * Only tested with Python 3.12 + CUDA 11.8
 * GGUF works via `llama.cpp` loader
 
